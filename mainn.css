@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration:  none;
+  color: #777;
+}
+
+.container {
+  margin: 20px auto;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.foto {
+  width: 300px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.brand img {
+  display:block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 3 px;
+
+}
+
+nav a {
+  color: #000;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.obrazek {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+  z-index: 5;
+
+}
+
+h1 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+padding: 100px 0 300px 600px;
+}
+
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 50px 50px;
+  background-color: #e1e1e1;
+}
+
+.info li {
+  padding-bottom: 10px;
+}
+
+
+
+.info img {
+padding: 30px 30px 30px 30px;
+}
+.info ul {
+  list-style: none;
+}
